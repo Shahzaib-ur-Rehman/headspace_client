@@ -1,0 +1,13 @@
+.cardSection {
+  border-color: #f47d30 !important;
+}
+.cardSection:hover {
+  background-color: #f47d30;
+}
+.cardSection:hover .cardHeading {
+  color: #fff;
+}
+.cardHeading {
+  color: #f47d30;
+  padding: 20px 30px;
+}

@@ -12,7 +12,20 @@ function App() {
       </header>
       <section>
         <SearchSection />
-        <FaqQuestions />
+        <div className="row p-5 gy-5">
+          <FaqQuestions data="Top FAQ" />
+          <FaqQuestions data="Contact Us" />
+          <FaqQuestions data="Subscriptions & Billing" />
+          <FaqQuestions data="Account Setting" />
+          <FaqQuestions data="Troubleshooting" />
+          <FaqQuestions data="Using Headspace" />
+          <FaqQuestions data="Headspace Family Plan" />
+          <FaqQuestions data="Meditation Tips" />
+          <FaqQuestions data="Headspace Gifts" />
+          <FaqQuestions data="Headspace for Work" />
+          <FaqQuestions data="Scientific Benefits of Meditation" />
+          <FaqQuestions data="Privacy at Headspace" />
+        </div>
       </section>
       <footer>
         <Footer />

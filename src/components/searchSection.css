@@ -1,0 +1,39 @@
+.searchSection {
+  background-image: url("../images/searchSection.png");
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+}
+.hero-inner {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 610px;
+  margin: 0 auto;
+}
+
+.formInput {
+  border: #5a6175;
+  border-radius: 20px !important;
+  padding-left: 50px !important;
+}
+
+.formSection {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  left: 30px;
+  top: 6px;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: orangered !important;
+  outline: 0;
+  box-shadow: unset !important;
+}
