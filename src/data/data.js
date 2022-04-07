@@ -68,3 +68,14 @@ export const knownIssues = [
     URL: "/trendingTopicsDetail",
   },
 ];
+
+export const cardsContent = [
+  "New to Headspace? How to get started!",
+  "Headspace on Netflix",
+  "Does the current 30% discount offer apply to Gift and Family Plans?",
+  "I am interested in partnership opportunities with Headspace.",
+  "How is Headspace helping those impacted by COVID-19?",
+  "My company just launched Headspace! How do I get started and manage my subscription?",
+  "Headspace for the NHS",
+  "I'm a teacher/educator, how do I sign up for the discount?",
+];

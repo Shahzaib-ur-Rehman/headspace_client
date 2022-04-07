@@ -3,7 +3,7 @@
   border-radius: 6px;
   box-shadow: 0 0 20px #ccc;
   width: auto;
-  height: calc(100% - 24px);
+  /* height: calc(100% - 24px); */
   margin-bottom: 24px;
   cursor: pointer;
   text-align: start;
