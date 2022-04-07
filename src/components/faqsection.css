@@ -1,5 +1,6 @@
 .cardSection {
   border-color: #f47d30 !important;
+  cursor: pointer;
 }
 .cardSection:hover {
   background-color: #f47d30;
@@ -11,5 +12,4 @@
   color: #f47d30;
   padding: 20px 30px;
   font-size: 1rem;
-  cursor: pointer;
 }
