@@ -8,9 +8,6 @@ import { questionsURL } from "./data/data";
 function App() {
   return (
     <main>
-      <header>
-        <Header />
-      </header>
       <section>
         <SearchSection />
         <div className="row p-5 gy-5">

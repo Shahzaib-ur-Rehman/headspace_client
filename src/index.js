@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
 import TopFaq from "./components/TopFaq";
 import Header from "./components/Header";
+import TrendingTopics from "./components/TrendingTopics";
 import("bootstrap/dist/js/bootstrap");
 
 const container = document.getElementById("root");
@@ -17,6 +18,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/TopFaq" element={<TopFaq />} />
+      <Route path="/TrendingTopics" element={<TrendingTopics />} />
     </Routes>
   </BrowserRouter>
 );
