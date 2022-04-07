@@ -5,11 +5,21 @@
 .cardSection:hover {
   background-color: #f47d30;
 }
-.cardSection:hover .cardHeading {
+.cardSection:hover .cardHeading a{
   color: #fff;
 }
 .cardHeading {
+  /* color: #f47d30;
+  padding: 20px 30px; */
+}
+.cardHeading a{
   color: #f47d30;
-  padding: 20px 30px;
+  text-decoration: none;
   font-size: 1rem;
+  display: block;
+  padding: 20px 30px;
+}
+.cardSection .card-body{
+  width: 100%;
+  text-align: center;
 }
