@@ -10,10 +10,12 @@ function App() {
     <main>
       <section>
         <SearchSection />
-        <div className="row p-5 gy-5">
-          {questionsURL.map((question, index) => {
-            return <FaqQuestions data={question} key={index} />;
-          })}
+        <div className="container">
+          <div className="row py-5 g-5">
+            {questionsURL.map((question, index) => {
+              return <FaqQuestions data={question} key={index} />;
+            })}
+          </div>
         </div>
       </section>
       <footer>
