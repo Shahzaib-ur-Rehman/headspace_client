@@ -1,0 +1,17 @@
+.breadcrumbs li {
+  color: #666;
+  display: inline;
+  font-weight: 300;
+  font-size: 13px;
+  max-width: 450px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.breadcrumbs li a {
+  color: #f47d30 !important;
+  text-decoration: none !important;
+}
+.breadcrumbs li + li:before {
+  content: ">";
+  margin: 0 4px;
+}

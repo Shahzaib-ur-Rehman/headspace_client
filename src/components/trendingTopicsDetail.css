@@ -1,0 +1,25 @@
+.storeCard {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 20px #ccc;
+  width: auto;
+  height: calc(100% - 24px);
+  margin-bottom: 24px;
+  cursor: pointer;
+  text-align: start;
+  padding: 24px;
+}
+.storeCard:hover {
+  background: orangered;
+}
+.storeCard:hover .storeCardHead,
+.storeCard:hover .storeAddress {
+  color: #fff;
+}
+.storeCardHead {
+  color: black;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
