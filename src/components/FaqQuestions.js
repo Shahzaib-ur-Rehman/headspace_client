@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const FaqQuestions = ({ data }) => {
   const { Name, URL } = data;
   return (
-    <div className="col-md-4 ">
+    <div className="col-md-6 col-lg-4">
       <div class="card cardSection d-flex justify-content-center align-items-center">
         <div class="card-body cardHeading">
           <Link to={URL}>{Name}</Link>
