@@ -10,6 +10,11 @@ import Header from "./components/Header";
 import TrendingTopics from "./components/TrendingTopics";
 import TrendingTopicsDetail from "./components/TrendingTopicsDetail";
 import Footer from "./components/Footer";
+import ContactUs from "./components/ContactUs";
+import SubcriptionAndBilling from "./components/SubcriptionAndBilling";
+import AccountSettings from "./components/AccountSettings";
+import Troubleshooting from "./components/Troubleshooting";
+import UsingHeadSpace from "./components/UsingHeadSpace";
 import("bootstrap/dist/js/bootstrap");
 
 const container = document.getElementById("root");
@@ -22,6 +27,14 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/TopFaq" element={<TopFaq />} />
+      <Route path="/ContactUs" element={<ContactUs />} />
+      <Route
+        path="/SubcriptionAndBilling"
+        element={<SubcriptionAndBilling />}
+      />
+      <Route path="/UsingHeadSpace" element={<UsingHeadSpace />} />
+      <Route path="/AccountSetting" element={<AccountSettings />} />
+      <Route path="/Troubleshooting" element={<Troubleshooting />} />
       <Route path="/TopFaq/TrendingTopics" element={<TrendingTopics />} />
       <Route path="/trendingTopicsDetail" element={<TrendingTopicsDetail />} />
     </Routes>

@@ -18,9 +18,6 @@ function App() {
           </div>
         </div>
       </section>
-      <footer>
-        <Footer />
-      </footer>
     </main>
   );
 }
