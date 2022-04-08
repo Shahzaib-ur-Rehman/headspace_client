@@ -9,7 +9,6 @@ function App() {
   return (
     <main>
       <section>
-        <SearchSection />
         <div className="container">
           <div className="row py-5 g-5">
             {questionsURL.map((question, index) => {

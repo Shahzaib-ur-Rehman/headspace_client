@@ -22,7 +22,7 @@ const AccountSettings = () => {
               </li>
             </ol>
           </div>
-          <div className="col-md-5 col-lg-4 formSection ">
+          {/* <div className="col-md-5 col-lg-4 formSection ">
             <div className="searchIcon">
               <SearchSVG />
             </div>
@@ -31,7 +31,7 @@ const AccountSettings = () => {
               placeholder="Search"
               className="form-control formInput"
             ></input>
-          </div>
+          </div> */}
         </div>
         <div className="headingWrapper">
           <h3 className="mainHeading">Account Settings</h3>

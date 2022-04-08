@@ -21,6 +21,7 @@ import HeadspaceGifts from "./components/HeadspaceGifts";
 import HeadspaceForWork from "./components/HeadspaceforWork";
 import ScientificBenefitsOfMeditation from "./components/ScientificBenefitsOfMeditation";
 import PrivacyAtHeadspace from "./components/PrivacyAtHeadspace";
+import SearchSection from "./components/SearchSection";
 import("bootstrap/dist/js/bootstrap");
 
 const container = document.getElementById("root");
@@ -29,6 +30,7 @@ root.render(
   <BrowserRouter>
     <header>
       <Header />
+      <SearchSection />
     </header>
     <Routes>
       <Route path="/" element={<App />} />

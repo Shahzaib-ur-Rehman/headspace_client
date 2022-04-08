@@ -28,7 +28,7 @@ const HeadspaceForWork = () => {
               </li>
             </ol>
           </div>
-          <div className="col-md-5 col-lg-4 formSection ">
+          {/* <div className="col-md-5 col-lg-4 formSection ">
             <div className="searchIcon">
               <SearchSVG />
             </div>
@@ -37,7 +37,7 @@ const HeadspaceForWork = () => {
               placeholder="Search"
               className="form-control formInput"
             ></input>
-          </div>
+          </div> */}
         </div>
         <div className="headingWrapper">
           <h3 className="mainHeading"> Headspace for Work</h3>
