@@ -1,3 +1,10 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+.breadcrumbs{
+  padding-left: 0rem;
+}
 .breadcrumbs li {
   color: #666;
   display: inline;
@@ -10,6 +17,8 @@
 .breadcrumbs li a {
   color: #f47d30 !important;
   text-decoration: none !important;
+  font-weight: 400;
+  font-size: 14px;
 }
 .breadcrumbs li + li:before {
   content: ">";

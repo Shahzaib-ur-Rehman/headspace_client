@@ -1,7 +1,25 @@
+.containerDivider{
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.heading2{
+  font-size: 32px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.sideNavHeading{
+  font-size: 15PX;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  font-weight: 600;
+}
 .storeCard {
   background: #fff;
   border-radius: 6px;
-  box-shadow: 0 0 20px #ccc;
+  /* box-shadow: 0 0 20px #ccc; */
+  box-shadow: 0 0 8px #ccc;
   width: auto;
   /* height: calc(100% - 24px); */
   margin-bottom: 24px;
@@ -10,11 +28,12 @@
   padding: 24px;
 }
 .storeCard:hover {
-  background: orangered;
+  background-color: #f47d30;
+  color: rgba(255, 255, 255, 1);
 }
 .storeCard:hover .storeCardHead,
 .storeCard:hover .storeAddress {
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
 }
 .storeCardHead {
   color: black;
@@ -22,4 +41,28 @@
   text-transform: uppercase;
   margin-bottom: 15px;
   font-weight: 500;
+}
+
+.contentSection{
+  margin: 30px 0;
+}
+.contentSection p{
+  margin: 10px 0 20px 0;
+}
+.contentSection ul{
+  margin: 20px 0;
+  padding-left: 2.2rem;
+}
+.strongOrange{
+  color: #f47d30;
+}
+@media only screen and (min-width: 992px) {
+
+  .sideNavHeading{
+    border-bottom: none;
+    border-top: none;
+  }
+  .storeCard {
+    max-width: 240px;
+  }
 }
