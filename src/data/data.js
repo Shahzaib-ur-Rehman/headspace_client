@@ -8,7 +8,7 @@ export const questionsURL = [
   { Name: "Headspace Family Plan", URL: "/HeadspaceFamilyPlan" },
   { Name: "Meditation Tips", URL: "/MeditationTips" },
   { Name: "Headspace Gifts", URL: "/HeadspaceGifts" },
-  { Name: "Headspace for Work", URL: "/HeadspaceForWork" },
+  { Name: "Headspace for Work", URL: "/HeadspaceforWork" },
   {
     Name: "Scientific Benefits of Meditation",
     URL: "/ScientificBenefitsOfMeditation",
@@ -313,6 +313,269 @@ export const UsingTheHeadspaceApp = [
   },
   {
     Name: "Can I listen to previous 'Today's Meditation' sessions?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const FamilyPlan = [
+  {
+    Name: "How do I purchase the Family plan?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "What does the Headspace Family plan offer?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How many people can I invite to join my Headspace Family plan?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Are there any discounts available for the Family Plan?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How does payment for the Headspace Family plan work?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const ManagingFamilyPlan = [
+  {
+    Name: "Can I delete someone from my Family plan?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How do I add someone to my Family plan?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Can I cancel or resend an invitation?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How do I cancel my Family Plan?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const MeditationTips1 = [
+  {
+    Name: "Do I need a teacher?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "What kind of meditation is Headspace?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "When should I meditate?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How do I sit during meditation?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "What should I wear to meditate?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Can I meditate lying down?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const CommonMeditationObstacles = [
+  {
+    Name: "What does Andy have to say about obstacles?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Why do I keep falling asleep during meditation?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "What do I do when I encounter interruptions during meditation?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How do I deal with anxiety during meditation?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How do I deal with a really annoying itch during meditation?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How do I deal with dizziness during meditation?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const GiftPurchasers = [
+  {
+    Name: "How can I gift a Headspace subscription?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Can I choose the delivery date for my gift?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "My recipient hasn't received their gift! What happened?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const GiftRecipients = [
+  {
+    Name: "I've been gifted Headspace! How can I redeem my gift?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "I'm getting an error when redeeming my gift. What can I do?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const Administrators = [
+  {
+    Name: "What is Headspace?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "What is Headspace for Work?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How does the Headspace employee experience differ from the Headspace consumer app?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "I work for a school. Can I purchase Headspace for Work?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How can I get Headspace for Work for my team?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "I just purchased Headspace for Work. How do I get started?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const Members = [
+  {
+    Name: "How do I invite someone to my organization’s Family Plan?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "My family member never accepted their invite, what do I do next?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "I want to add someone to my Family plan but they already have a Headspace subscription.",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Can I delete someone from my Family plan?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "My organization uses Virgin Pulse. How do I enroll and link my Headspace account?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "My company just launched Headspace! How do I get started?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const OktaSSObers = [
+  {
+    Name: "How to connect your SSO account",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How do I enroll in Headspace for Work with Okta SSO?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "I have an existing Headspace account and want to enroll in Headspace for Work with Okta SSO.",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const ContactingSupport = [
+  {
+    Name: "Need additional help?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const HeadspaceScience = [
+  {
+    Name: "Are there any studies that have looked at the impact of Headspace on health?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "What other research is the Headspace Science team working on?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Why is science and research an important focus for Headspace?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const MindfulnessScience = [
+  {
+    Name: "What are some proven ways I can work to make Headspace a routine in my life?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How does mindfulness meditation work?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "What are the scientific benefits of mindfulness meditation?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "According to the research, how long will it take to experience the benefits?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Is there research on the impact of online meditation programs like Headspace?",
+    URL: "/trendingTopicsDetail",
+  },
+];
+
+export const HeadspacePrivacy = [
+  {
+    Name: "Authentication for Secure Downloads",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Is the Headspace app tracking my location?",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "How Can I Protect My Account from a Security Breach",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Accessing Your Personal Data",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Managing Your Privacy Preferences",
+    URL: "/trendingTopicsDetail",
+  },
+  {
+    Name: "Deleting Your Headspace Account",
     URL: "/trendingTopicsDetail",
   },
 ];

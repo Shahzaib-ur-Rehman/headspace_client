@@ -15,6 +15,12 @@ import SubcriptionAndBilling from "./components/SubcriptionAndBilling";
 import AccountSettings from "./components/AccountSettings";
 import Troubleshooting from "./components/Troubleshooting";
 import UsingHeadSpace from "./components/UsingHeadSpace";
+import HeadspaceFamilyPlan from "./components/HeadspaceFamilyPlan";
+import MeditationTips from "./components/MeditationTips";
+import HeadspaceGifts from "./components/HeadspaceGifts";
+import HeadspaceForWork from "./components/HeadspaceforWork";
+import ScientificBenefitsOfMeditation from "./components/ScientificBenefitsOfMeditation";
+import PrivacyAtHeadspace from "./components/PrivacyAtHeadspace";
 import("bootstrap/dist/js/bootstrap");
 
 const container = document.getElementById("root");
@@ -35,6 +41,15 @@ root.render(
       <Route path="/UsingHeadSpace" element={<UsingHeadSpace />} />
       <Route path="/AccountSetting" element={<AccountSettings />} />
       <Route path="/Troubleshooting" element={<Troubleshooting />} />
+      <Route path="/HeadspaceFamilyPlan" element={<HeadspaceFamilyPlan />} />
+      <Route path="/MeditationTips" element={<MeditationTips />} />
+      <Route path="/HeadspaceGifts" element={<HeadspaceGifts />} />
+      <Route path="/HeadspaceforWork" element={<HeadspaceForWork />} />
+      <Route
+        path="/ScientificBenefitsOfMeditation"
+        element={<ScientificBenefitsOfMeditation />}
+      />
+      <Route path="/PrivacyAtHeadspace" element={<PrivacyAtHeadspace />} />
       <Route path="/TopFaq/TrendingTopics" element={<TrendingTopics />} />
       <Route path="/trendingTopicsDetail" element={<TrendingTopicsDetail />} />
     </Routes>
